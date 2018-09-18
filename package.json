@@ -1,0 +1,23 @@
+{
+  "name": "SVG-Next",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js --mode development",
+    "serve": "http-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^0.11.1",
+    "svg-fill-loader": "0.0.8",
+    "svg-sprite-loader": "^3.9.2",
+    "svgo": "^1.1.1",
+    "svgo-loader": "^2.2.0",
+    "webpack": "^4.19.0",
+    "webpack-cli": "^3.1.0"
+  },
+  "dependencies": {},
+  "description": ""
+}
